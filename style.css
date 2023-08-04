@@ -1,0 +1,41 @@
+.choiceBtn{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    line-height: 30px;
+    width: 150px;
+    border-radius: 15px;
+    background-color:aliceblue;
+    box-shadow: 5px 5px 5px;
+}
+.choiceBtn{
+    transition-duration: .5s;
+}  
+
+.choiceBtn:hover {
+    background-color: #5baf4c;
+    color: white;
+}
+
+#gameDiv{
+    font-family:'Courier New', Courier, monospace, cursive;
+    font-weight: bolder;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-image: url("rock-paper-scissors.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+    text-align: center;
+
+}
+#playerText{
+    color:chartreuse;
+}
+#computerText{
+    color:darkturquoise;
+}
+#resultText{
+    color:deepskyblue
+}
